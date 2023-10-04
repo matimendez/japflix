@@ -1,0 +1,54 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+/* Estilos personalizados para el dropdown */
+.dropdown-menu {
+    position: absolute;
+    z-index: 1050;
+}
+
+/* Asegura que el contenido del offcanvas se ajuste correctamente */
+.offcanvas.show {
+    transform: translateX(0);
+}
+/* Estilos personalizados para el dropdown */
+.offcanvas-top .dropdown-menu {
+    position: fixed;
+    z-index: 1050;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+}
+
+/* Asegura que el contenido del offcanvas se ajuste correctamente */
+.offcanvas-top.show {
+    transform: translateX(0);
+}
